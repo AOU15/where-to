@@ -3,7 +3,9 @@ Description: Where To? is the an app that will assist users with vacation ideas.
 
 
 Wireframes link: https://whimsical.com/destination-RxPrYozbz8S18DQeL7KTtB
+
 Component Hierarchy link: https://whimsical.com/destination-RxPrYozbz8S18DQeL7KTtB
+
 API:
 MVP: The user will be able to select a destination and be directed to the correct page. Suggestions will be submitted properly and updated to the API. The links will fucntion properly. All destinations will be displayed correctly with links. 
 The app will be visual pleasing to the user, animation will be displayed with the globes. 
