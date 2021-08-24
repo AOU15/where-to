@@ -1,38 +1,9 @@
 .App {
   text-align: center;
+  background-color: rgb(96, 88, 187);
+  color: aliceblue;
+  font-size: x-large;
+  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0527bbc1-d407-4015-8e54-51bb78fbd17c/d4gkwo0-b1b3bd82-3a99-4587-a768-0a9ccf67eb77.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzA1MjdiYmMxLWQ0MDctNDAxNS04ZTU0LTUxYmI3OGZiZDE3Y1wvZDRna3dvMC1iMWIzYmQ4Mi0zYTk5LTQ1ODctYTc2OC0wYTljY2Y2N2ViNzcuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Mdb1Hqpg5NvyrNL6vAOD6tMtYqMS4XAO4QX4TOdxto4");
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
