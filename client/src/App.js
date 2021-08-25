@@ -8,6 +8,7 @@ import Home from "./components/Home";
 import Continents from "./components/Continents";
 import Show from "./components/Show";
 import Destinations from "./components/Destinations";
+import Form from "./components/Form";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -37,9 +38,11 @@ function App() {
         <Destinations destinations={destinations}/>
       </Route>
       <Route path="/new">
+        <Form destinations={destinations}/>
         <h1>This is new form route</h1>
       </Route>
       <Route path="/edit/:id">
+        <Form destinations={destinations}/>
         <h1>This is edit form route</h1>
       </Route>
     </div>
