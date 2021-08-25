@@ -17,7 +17,7 @@ export default function Home() {
       <h1>Where To?</h1>
       <p>Have you ever wanted to travel? Start by choosing a continent down below. Pick a continent down below and take a look at the attractions and activities! </p>
 
-      <img src="https://media4.giphy.com/media/5x75ibSAYSCLMRGVWd/giphy.gif?cid=ecf05e47zhx60lj3ps70h4jio75g5kgz8z29hyhah1k16ws6&rid=giphy.gif&ct=g" />
+      {/* <img src="https://media4.giphy.com/media/5x75ibSAYSCLMRGVWd/giphy.gif?cid=ecf05e47zhx60lj3ps70h4jio75g5kgz8z29hyhah1k16ws6&rid=giphy.gif&ct=g" /> */}
       <form onSubmit={handleSubmit}>
         <label>
           Choose a continent:

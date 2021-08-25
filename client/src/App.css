@@ -1,8 +1,9 @@
 .App {
   text-align: center;
   /* background-color: rgb(96, 88, 187); */
-  color: rgb(44, 128, 202);
+  color: rgb(116, 157, 193);
   font-size: x-large;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 body {
@@ -14,8 +15,32 @@ body {
 }
 
 .conlist {
-  background-color: yellow;
-  border: 20px;
+  background-color: rgb(159, 124, 216);
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-body {
+  flex: 1 1 auto;
+  /* padding: 5rem 5rem; */
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.destilist {
+  /* flex: 1 1 auto; */
+  /* padding: 5rem 5rem; */
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(159, 124, 216);
+  border-radius: 10px;
 }
 
 /* .card {
@@ -29,3 +54,25 @@ body {
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 10px;
 } */
+
+.card-body {
+  display: flex;
+  justify-content: center;
+  /* padding: 100px; */
+}
+
+.card {
+  /* align-content: center; */
+  /* position: relative; */
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  /* background-color: #fff; */
+  /* background-clip: content-box; */
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.showpage {
+  background-color: rgb(174, 148, 100);
+}
