@@ -16,19 +16,25 @@ The app will be visual pleasing to the user, animation will be displayed with th
 
 
 Project Schedule: 
-Day	Deliverable	Status
-|August 20	|Prompt / Wireframes / Priority Matrix / Timeframes	|Complete|
-|August 20	|Project Approval	|Complete|
-|August 23	|Core Application Structure (HTML, CSS, etc.)	|Incomplete|
-|August 24	|Pseudocode / actual code	|Incomplete|
-|August 25	|Initial Clickable Model	|Incomplete|
-|August 26	|MVP	|Incomplete|
-|August 27	|Presentations	|Incomplete|
+|  Day | Deliverable | Status
+|---|---| ---|
+|August 20| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
+|August 20| Project Approval | Complete
+|August 23| Core Application Structure (HTML, CSS, etc.) | Incomplete
+|August 24| Pseudocode / actual code | Incomplete
+|Agust 25| Initial Clickable Model  | Incomplete
+|August 26| MVP | Incomplete
+|August 27| Presentations | Incomplete
+
+
+
 
 Timeframes
-Component	|Priority	Estimated Time	Time Invested	Actual Time
-Adding Form	H	3hrs	3.5hrs	3.5hrs
-Working with API	H	3hrs	2.5hrs	2.5hrs
-Total	H	6hrs	5hrs	5hrs
+| Component | Priority | Estimated Time | Time Invested | Actual Time |
+| --- | :---: |  :---: | :---: | :---: |
+| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
+| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
+| Total | H | 6hrs| 5hrs | 5hrs |
+
 
 
