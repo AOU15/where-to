@@ -7,6 +7,35 @@ Wireframes link: https://whimsical.com/destination-RxPrYozbz8S18DQeL7KTtB
 Component Hierarchy link: https://whimsical.com/destination-RxPrYozbz8S18DQeL7KTtB
 
 API:
+```json
+{
+    "records": [
+        {
+            "id": "rec2gGSBlKeDiJlDz",
+            "fields": {
+                "image": "https://www.planetware.com/photos-large/USDC/usa-washington-dc-white-house.jpg",
+                "description": "The White House is the official residence of the President of the United States. The home of every president except George Washington, it was originally built by James Hoban in 1792, and after being burned down by British forces in 1814 was rebuilt in 1818.",
+                "website": "https://www.planetware.com/tourist-attractions/district-of-columbia-usdc.htm",
+                "city": "Washington DC",
+                "continent": "North America",
+                "attraction": "The White House"
+            },
+            "createdTime": "2021-08-25T02:33:39.000Z"
+        },
+        {
+            "id": "rec3M4h0BIVyXBwDJ",
+            "fields": {
+                "image": "https://www.planetware.com/photos-large/I/italy-colosseum-day.jpg",
+                "description": "This huge amphitheater, the largest of its kind ever built by the Roman Empire and the largest of their constructions to survive, remained a model for sports facilities right up to modern times.",
+                "website": "https://www.planetware.com/tourist-attractions/italy-i.htm",
+                "city": "Rome, Italy",
+                "continent": "Europe",
+                "attraction": "The Colosseum"
+            },
+            "createdTime": "2021-08-25T02:24:04.000Z"
+        },
+ ```
+        
 
 MVP 
 The user will be able to select a destination and be directed to the correct page. Suggestions will be submitted properly and updated to the API. The links will fucntion properly. All destinations will be displayed correctly with links. 
