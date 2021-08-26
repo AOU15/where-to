@@ -1,7 +1,6 @@
 .App {
   text-align: center;
-  /* background-color: rgb(96, 88, 187); */
-  color: rgb(116, 157, 193);
+  color: rgb(103, 226, 41);
   font-size: x-large;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
@@ -14,33 +13,47 @@ body {
   background-size: cover;
 }
 
+.homelink {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.destilink {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.updatelink {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .conlist {
-  background-color: rgb(159, 124, 216);
-  border-radius: 10px;
+  background-color: slategrey;
+  border-radius: 70px;
   justify-content: center;
   align-items: center;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .card-body {
-  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
   /* padding: 5rem 5rem; */
   justify-content: center;
   align-items: center;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .destilist {
-  /* flex: 1 1 auto; */
-  /* padding: 5rem 5rem; */
+  display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: rgb(159, 124, 216);
+  background-color: rgb(99, 93, 109);
   border-radius: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  flex-wrap: wrap;
 }
 
 /* .card {
@@ -58,21 +71,37 @@ body {
 .card-body {
   display: flex;
   justify-content: center;
-  /* padding: 100px; */
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .card {
-  /* align-content: center; */
-  /* position: relative; */
   display: flex;
   flex-direction: column;
-  min-width: 0;
+  margin: 0 auto;
+  width: 50%;
+  flex-wrap: wrap;
   word-wrap: break-word;
-  /* background-color: #fff; */
-  /* background-clip: content-box; */
   border: 1px solid rgba(0, 0, 0, 0.125);
+  justify-content: center;
 }
 
-.showpage {
-  background-color: rgb(174, 148, 100);
+.showpagelist {
+  background-color: rgb(126, 116, 98);
+  padding: 10px;
+}
+
+.updatedes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+.homepage {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 100px;
 }

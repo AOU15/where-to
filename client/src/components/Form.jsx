@@ -18,7 +18,7 @@ function Form(props) {
   
   useEffect(() => {
     if (params.id) {
-      const destinationUpdate = props.destination.find(destination => params.id === destination.id)
+      const destinationUpdate = props.destinations.find(destination => params.id === destination.id)
       if (destinationUpdate) {
         setContinent(destinationUpdate.fields.continent)
         setCity(destinationUpdate.fields.city)
@@ -51,7 +51,7 @@ function Form(props) {
   }
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form className="updatedes" onSubmit={handleSubmit}>
       <label htmlFor='continent'>Continent: </label>
       <input id='continent' type='text' onChange={(e) => setContinent(e.target.value)} value={continent} />
       <br />

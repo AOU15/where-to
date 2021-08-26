@@ -39,11 +39,11 @@ function App() {
       </Route>
       <Route path="/new">
         <Form destinations={destinations}/>
-        <h1>This is new form route</h1>
+        
       </Route>
       <Route path="/edit/:id">
         <Form destinations={destinations}/>
-        <h1>This is edit form route</h1>
+        
       </Route>
     </div>
   );
