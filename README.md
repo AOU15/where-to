@@ -58,10 +58,10 @@ Project Schedule:
 |August 20| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
 |August 20| Project Approval | Complete
 |August 23| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|August 24| Pseudocode / actual code | Incomplete
-|Agust 25| Initial Clickable Model  | Incomplete
-|August 26| MVP | Incomplete
-|August 27| Presentations | Incomplete
+|August 24| Pseudocode / actual code | Complete
+|Agust 25| Initial Clickable Model  | Complete
+|August 26| MVP | Complete
+|August 27| Presentations | Complete
 
 
 
@@ -71,6 +71,13 @@ Timeframes
 | --- | :---: |  :---: | :---: | :---: |
 | Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
 | Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
+| Styling CSS | H | 3hrs | 4hrs| 4hrs|
+| Styling with React| H | 2hrs| 3 hrs | 5hrs|
+| Card Styling | H | 1 hr| 3 hrs| 4hrs|
+| Creating wireframe| H | 1 hr| 2 hrs| 2 hrs|
+| Creating component heirarchy| H | 1 hr| 2hrs| 2 hrs|
+| Edit API| H | 1hr| 2 hr| 2 hr|
+| Build Form Component| H| 1 hr| 2 hr| 2 hr|
 | Total | H | 6hrs| 5hrs | 5hrs |
 
 
