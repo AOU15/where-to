@@ -71,9 +71,9 @@ Timeframes
 | --- | :---: |  :---: | :---: | :---: |
 | Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
 | Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Styling CSS | H | 3hrs | 4hrs| 4hrs|
+| Styling CSS | H | 3hrs | 4hrs| 5hrs|
 | Styling with React| H | 2hrs| 3 hrs | 5hrs|
-| Card Styling | H | 1 hr| 3 hrs| 4hrs|
+| Card Styling | H | 1 hr| 3 hrs| 5hrs|
 | Creating wireframe| H | 1 hr| 2 hrs| 2 hrs|
 | Creating component heirarchy| H | 1 hr| 2hrs| 2 hrs|
 | Edit API| H | 1hr| 2 hr| 2 hr|
