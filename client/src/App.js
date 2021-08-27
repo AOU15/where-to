@@ -9,7 +9,7 @@ import Continents from "./components/Continents";
 import Show from "./components/Show";
 import Destinations from "./components/Destinations";
 import Form from "./components/Form";
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   const [destinations, setDestinations] = useState([]);

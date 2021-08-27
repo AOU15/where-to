@@ -14,11 +14,11 @@ export default function Show(props) {
   const { continent, image, attraction, website, description, city } =
     destination.fields;
 
-  // console.log(destination)
+
   return (
-    <Card style={{ padding: "1px", minWidth: "400px" }}>
-      <Card.Body className="showpagelist">
-        <div>
+    
+    <div>
+      <Card style={{ padding: "1px", minWidth: "400px", marginBottom: "35px", backgroundColor: "#2ea44c5c" }}>
           <h1>{continent}</h1>
           <h3>{city}</h3>
           <h3>{attraction}</h3>
@@ -27,9 +27,9 @@ export default function Show(props) {
           <h4>{website}</h4>
           <Link to={`/edit/${destination.id}`}>
             <button>Edit destination</button>
-          </Link>
+        </Link>
+        </Card>
         </div>
-      </Card.Body>
-    </Card>
+      
   );
 }

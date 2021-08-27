@@ -16,74 +16,39 @@ body {
 .homelink {
   display: flex;
   justify-content: flex-start;
+  color: rgba(22, 238, 94, 0.55);
 }
 
 .destilink {
   display: flex;
   justify-content: flex-start;
+  color: rgba(22, 238, 94, 0.55);
 }
 
 .updatelink {
   display: flex;
   justify-content: flex-end;
+  color: rgba(22, 238, 94, 0.55);
 }
 
 .conlist {
+  display: flex;
   background-color: slategrey;
   border-radius: 70px;
-  justify-content: center;
-  align-items: center;
-}
-
-.card-body {
-  display: flex;
-  flex-direction: column;
-  /* padding: 5rem 5rem; */
-  justify-content: center;
-  align-items: center;
-  margin-left: 50px;
-  margin-right: 50px;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 .destilist {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
   background-color: rgb(99, 93, 109);
   border-radius: 10px;
   margin-left: 50px;
   margin-right: 50px;
   flex-wrap: wrap;
-}
-
-/* .card {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  min-width: 50px;
-  word-wrap: break-word;
-  background-color: rgb(1, 87, 64);
-  background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 10px;
-} */
-
-.card-body {
-  display: flex;
-  justify-content: center;
-  margin-left: 50px;
-  margin-right: 50px;
-}
-
-.card {
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  width: 50%;
-  flex-wrap: wrap;
-  word-wrap: break-word;
-  border: 1px solid rgba(0, 0, 0, 0.125);
-  justify-content: center;
 }
 
 .showpagelist {
@@ -104,4 +69,9 @@ body {
   justify-content: center;
   flex-direction: column;
   row-gap: 100px;
+}
+.cardtwo {
+  justify-content: space-between;
+  margin: 0 auto;
+  background-color: rgba(53, 213, 133, 0.283);
 }
