@@ -57,7 +57,7 @@ Project Schedule:
 |---|---| ---|
 |August 20| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
 |August 20| Project Approval | Complete
-|August 23| Core Application Structure (HTML, CSS, etc.) | Incomplete
+|August 23| Core Application Structure (HTML, CSS, etc.) | Complete
 |August 24| Pseudocode / actual code | Complete
 |Agust 25| Initial Clickable Model  | Complete
 |August 26| MVP | Complete
