@@ -78,6 +78,11 @@ Timeframes
 | Creating component heirarchy| H | 1 hr| 2hrs| 2 hrs|
 | Edit API| H | 1hr| 2 hr| 2 hr|
 | Build Form Component| H| 1 hr| 2 hr| 2 hr|
+| Research destination| H | 1 hr| 2hr | 3hr|
+| React bootstrap Image| H | 1 hr | 1 hr| 1 hr|
+| README.md| H | 1hr| 1 hr| 2hr|
+| Site delpoy| H | 1hr| 1 hr| 1hr|
+| Styling CSS| H | 3hrs| 4hrs| 5 hrs|
 | Total | H | 6hrs| 5hrs | 5hrs |
 
 
