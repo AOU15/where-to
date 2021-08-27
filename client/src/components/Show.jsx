@@ -18,7 +18,7 @@ export default function Show(props) {
   return (
     
     <div>
-      <Card style={{ padding: "1px", minWidth: "400px", marginBottom: "35px", backgroundColor: "#2ea44c5c" }}>
+      <Card style={{ margin: "0 auto", padding: "100px", minWidth: "400px", marginBottom: "35px", backgroundColor: "#2ea44c5c", width: "50rem", borderRadius: "20px" }}>
           <h1>{continent}</h1>
           <h3>{city}</h3>
           <h3>{attraction}</h3>
