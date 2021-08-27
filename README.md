@@ -10,7 +10,9 @@ Wireframes:
 
 
 
-Component Hierarchy link: https://whimsical.com/destination-RxPrYozbz8S18DQeL7KTtB
+Component Hierarchy:
+![image](https://user-images.githubusercontent.com/87203079/131071408-cc82d709-f509-408d-a5e8-319dd5271518.png)
+
 
 API:
 ```json
