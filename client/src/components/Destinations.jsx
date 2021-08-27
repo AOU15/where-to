@@ -8,15 +8,24 @@ export default function Destinations(props) {
     <div>
       {props.destinations.map((des) => (
         <Link to={`/destinations/${des.id}`}>
-            <div>
-            <Card className="cardtwo" style={{ padding: "100px", width: "50rem", borderRadius: "20px", marginBottom: "35px", backgroundColor: "#2ea44c5c" }}>
+          <div>
+            <Card
+              className="cardtwo"
+              style={{
+                padding: "100px",
+                width: "50rem",
+                borderRadius: "20px",
+                marginBottom: "35px",
+                backgroundColor: "#2ea44c5c",
+              }}
+            >
               <h3>{des.fields.continent}</h3>
               <h3>{des.fields.city}</h3>
               <Image src={des.fields.image} fluid />
               <h3>{des.fields.attraction}</h3>
-        </Card>
-            </div>
-          </Link>
+            </Card>
+          </div>
+        </Link>
       ))}
     </div>
   );

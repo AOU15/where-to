@@ -14,22 +14,29 @@ export default function Show(props) {
   const { continent, image, attraction, website, description, city } =
     destination.fields;
 
-
   return (
-    
     <div>
-      <Card style={{ margin: "0 auto", padding: "100px", minWidth: "400px", marginBottom: "35px", backgroundColor: "#2ea44c5c", width: "50rem", borderRadius: "20px" }}>
-          <h1>{continent}</h1>
-          <h3>{city}</h3>
-          <h3>{attraction}</h3>
-          <Image src={image} fluid />
-          <p>{description}</p>
-          <h4>{website}</h4>
-          <Link to={`/edit/${destination.id}`}>
-            <button>Edit destination</button>
+      <Card
+        style={{
+          margin: "0 auto",
+          padding: "100px",
+          minWidth: "400px",
+          marginBottom: "35px",
+          backgroundColor: "#2ea44c5c",
+          width: "50rem",
+          borderRadius: "20px",
+        }}
+      >
+        <h1>{continent}</h1>
+        <h3>{city}</h3>
+        <h3>{attraction}</h3>
+        <Image src={image} fluid />
+        <p>{description}</p>
+        <h4>{website}</h4>
+        <Link to={`/edit/${destination.id}`}>
+          <button>Edit destination</button>
         </Link>
-        </Card>
-        </div>
-      
+      </Card>
+    </div>
   );
 }

@@ -10,7 +10,7 @@ export default function Nav() {
       <br />
       <Link className="destilink" to="/destinations">Destinations</Link>
       <br />
-      {/* <Link to="/edit/:id">Suggestions</Link> */}
+      
 
 
     </div>
