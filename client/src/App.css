@@ -76,8 +76,12 @@ body {
   background-color: rgba(53, 213, 133, 0.283);
 }
 
-a {
-  color: #fdfa0d;
+a,
+h1,
+h3,
+p,
+label {
+  color: #eeae0c;
 }
 
 @media screen and (max-width: 500px) {

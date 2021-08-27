@@ -10,6 +10,7 @@ export default function Destinations(props) {
         <Link to={`/destinations/${des.id}`}>
             <div>
             <Card className="cardtwo" style={{ padding: "100px", width: "50rem", borderRadius: "20px", marginBottom: "35px", backgroundColor: "#2ea44c5c" }}>
+              <h3>{des.fields.continent}</h3>
               <h3>{des.fields.city}</h3>
               <Image src={des.fields.image} fluid />
               <h3>{des.fields.attraction}</h3>
